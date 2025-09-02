@@ -1,0 +1,11 @@
+services:
+  flower:
+    build: .
+    ports:
+      - "5000:80"
+    networks:
+      - web
+
+networks:
+  web:
+    external: true
