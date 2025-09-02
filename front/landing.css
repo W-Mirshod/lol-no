@@ -167,6 +167,17 @@ body {
     transform: translateY(-1px);
 }
 
+.portal-button {
+    background: linear-gradient(45deg, #4a90e2, #7bb3f0, #a8d0f0) !important;
+    box-shadow: 0 8px 25px rgba(74, 144, 226, 0.4) !important;
+    margin-top: 1rem;
+}
+
+.portal-button:hover {
+    background: linear-gradient(45deg, #357abd, #6ba3e8, #96c4e8) !important;
+    box-shadow: 0 12px 35px rgba(74, 144, 226, 0.6) !important;
+}
+
 .button-text {
     position: relative;
     z-index: 2;
